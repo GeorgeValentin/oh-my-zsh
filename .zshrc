@@ -66,8 +66,13 @@ plugins=(
   python
   nodejs
   rust
+  brew
+  iterm2
+  docker
+  docker-compose
   tmux
   extract
+  z
   autojump
   sublime
   zsh-autosuggestions
@@ -107,3 +112,4 @@ source $ZSH/oh-my-zsh.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
